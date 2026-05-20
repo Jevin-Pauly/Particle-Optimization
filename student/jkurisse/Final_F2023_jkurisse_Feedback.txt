@@ -1,0 +1,120 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 11/17/2023
+changelist(pdf): 200094
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: failed ... 20% deduction  
+ 
+[x86 Debug]  Passed: 2
+[x86 Debug]  Failed: 4
+   
+ 
+   --- For grading --- 
+
+         Unit Pass: 2
+       Unit Failed: 4
+
+               Raw: 2
+        Deductions: 0.0
+       Final Score: 2.0
+
+Build started...
+1>------ Build started: Project: FinalDebugX86, Configuration: Debug Win32 ------
+1>Bucket.cpp
+1>BucketMan.cpp
+1>Data.cpp
+1>Donut.cpp
+1>Hodor.cpp
+1>HotList.cpp
+1>Item.cpp
+1>LocalData.cpp
+1>Proxy.cpp
+1>STLSort.cpp
+1>Work.cpp
+1>Wylis.cpp
+1>BucketMan_ReadOnly.cpp
+1>Bucket_ReadOnly.cpp
+1>Data_ReadOnly.cpp
+1>Hot_ReadOnly.cpp
+1>Item_ReadOnly.cpp
+1>List_ReadOnly.cpp
+1>main.cpp
+1>Node_ReadOnly.cpp
+1>LinkedList_Test.cpp
+1>LinkedList_Test_2.cpp
+1>MemoryLeak_Test.cpp
+1>Proxy_Test.cpp
+1>Cache_Test.cpp
+1>STL_Sort_Test.cpp
+1>FinalDebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Final_F2023\Debug\FinalDebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:38 PM and took 04.097 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: LinkedList_Test_Enable_Test 
+-FAILED: LinkedList2_Test_Enable_Test 
+	check '(LeakCountEnd - LeakCountBegin) == 0' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Final_F2023\Test\LinkedList_Test_2.cpp(113): <double-click> 
+-FAILED: MemoryLeak_Test_Enable_Test 
+	check 'MemTrace::UnitTest_MemLeakCheck_End_Proxy()' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Final_F2023\Test\MemoryLeak_Test.cpp(37): <double-click> 
+-FAILED: Proxy_Test_Enable_Test 
+	check 'false' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Final_F2023\Test\Proxy_Test.cpp(16): <double-click> 
+ PASSED: Cache_Test_Enable_Test 
+-FAILED: STL_Sort_Test_Enable_Test 
+	check 'pOut->size() == 18' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Final_F2023\Test\STL_Sort_Test.cpp(149): <double-click> 
+
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 2
+[x86 Debug]  Failed: 4
+
+   Test Count: 6
+ Indiv Checks: 34
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+>>> Memory Tracking: FAIL <<<<<<
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

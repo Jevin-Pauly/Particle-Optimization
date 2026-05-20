@@ -1,0 +1,100 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/5/2023
+changelist(pdf): 194773
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+ 
+[x86 Debug]  Passed: 6
+[x86 Debug]  Failed: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 6
+       Unit Failed: 0
+
+               Raw: 6
+        Deductions: 0.0
+       Final Score: 6.0
+
+Build started...
+1>------ Build started: Project: Basics4DebugX86, Configuration: Debug Win32 ------
+1>ComparingStrings.cpp
+1>CopyingStrings.cpp
+1>CopyToBuffer.cpp
+1>LengthOfStrings.cpp
+1>SortStrings.cpp
+1>CompareStrings_Test.cpp
+1>CopyStrings_Test.cpp
+1>CopyToBuffer_Test.cpp
+1>SortStrings_Test.cpp
+1>SortWordLength_Test.cpp
+1>StringLength_Test.cpp
+1>main.cpp
+1>Basics4DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics4\Debug\Basics4DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 7:37 PM and took 02.526 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: compare_strings_Test 
+ PASSED: copy_strings_Test 
+message: MonkeyBra
+message: Mono
+message: 
+ PASSED: copy_to_buffer_Test 
+ PASSED: sort_strings_Test 
+ PASSED: sort_strings_wordlength_Test 
+ PASSED: strings_len_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 6
+[x86 Debug]  Failed: 0
+
+   Test Count: 6
+ Indiv Checks: 74
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

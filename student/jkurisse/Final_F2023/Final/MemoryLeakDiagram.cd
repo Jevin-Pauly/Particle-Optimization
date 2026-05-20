@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Wylis">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="~Wylis" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Wylis" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIgBAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2023fall_csc461\instructor\Assignment\Final\Final_F2023\Final_F2023\Final\Wylis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hodor">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="~Hodor" Hidden="true" />
+      <Method Name="Hodor" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2023fall_csc461\instructor\Assignment\Final\Final_F2023\Final_F2023\Final\Hodor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Donut">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="~Donut" Hidden="true" />
+      <Method Name="Donut" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAABgAAABAAA=</HashCode>
+      <FileName>C:\code\keenan2023fall_csc461\instructor\Assignment\Final\Final_F2023\Final_F2023\Final\Donut.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

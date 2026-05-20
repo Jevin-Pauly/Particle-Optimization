@@ -1,0 +1,248 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 11/4/2023
+changelist(pdf): 198214
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+   
+--- 1st run  ---   
+       Insertion Time: 1143.174613 ms
+           Merge Time: 3.666000 ms
+Merge_Vs_Insert Ratio: 311.831604 faster
+           Combo Time: 3.408200 ms   Cutoff length: 96
+ Combo_Vs_Merge Ratio: 1.075641 faster
+    Time to create File: 1.585900 ms  
+  Time to recreate list: 3.394000 ms  
+  Verify Time: 0.576800 ms  Result: 1
+   
+--- 2nd run  ---   
+       Insertion Time: 1122.139313 ms
+           Merge Time: 3.638800 ms
+Merge_Vs_Insert Ratio: 308.381714 faster
+           Combo Time: 3.566400 ms   Cutoff length: 96
+ Combo_Vs_Merge Ratio: 1.020301 faster
+    Time to create File: 3.080000 ms  
+  Time to recreate list: 3.271900 ms  
+  Verify Time: 0.203000 ms  Result: 1
+   
+--- 3rd run  ---   
+       Insertion Time: 1122.541313 ms
+           Merge Time: 3.507700 ms
+Merge_Vs_Insert Ratio: 320.022034 faster
+           Combo Time: 3.459700 ms   Cutoff length: 96
+ Combo_Vs_Merge Ratio: 1.013874 faster
+    Time to create File: 1.892700 ms  
+  Time to recreate list: 3.337000 ms  
+  Verify Time: 0.239500 ms  Result: 1
+   
+ 
+  Merge_Vs_Insert Ratio: 
+            [x >= 200.0] --> 1 pts 
+            [x <  200.0] --> 0 pts 
+ 
+   Combo_Vs_Merge Ratio: 
+            [x >  1.10] --> 1 pts 
+            [x <= 1.10] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+using Merge_Vs_Insert Ratio: 320.02203
+               --> 1 pts
+ 
+using Combo_Vs_Merge Ratio: 1.075641
+               --> 0 pts
+ 
+ 
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 6
+        Deductions: 0.0
+       Final Score: 6.0
+
+Build started...
+1>------ Build started: Project: PA8DebugX86, Configuration: Debug Win32 ------
+1>FileList.cpp
+1>SearchList.cpp
+1>6_Print_Results.cpp
+1>AList.cpp
+1>FileList_ReadOnly.cpp
+1>main.cpp
+1>Node.cpp
+1>SearchList_ReadOnly.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>PA8DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA8\Debug\PA8DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:24 PM and took 02.730 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+Original linked list---------------------------
+   Finding Key: 0.273800 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+ PASSED: CreateList_Test_Enable_Test 
+ PASSED: Insert_Test_Enable_Test 
+ PASSED: Merge_Test_Enable_Test 
+ PASSED: Combo_Test_Enable_Test 
+ PASSED: WriteToFile_Test_Enable_Test 
+ PASSED: ReadFromFile_Test_Enable_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 75
+         Mode: x86 Debug 
+
+-----------------
+
+Creation of original List: 11.644100 ms
+
+       Insertion Time: 1611.343019 ms
+           Merge Time: 5.278000 ms
+
+Merge_Vs_Insert Ratio: 305.294250 faster
+
+           Combo Time: 5.184400 ms   Cutoff length: 96
+
+ Combo_Vs_Merge Ratio: 1.018054 faster
+
+-- Load In Place: enabled ---
+
+    Time to create File: 1.768000 ms  
+  Time to recreate list: 9.157400 ms  
+
+  Verify Time: 0.608600 ms  Result: 1
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+Build started...
+1>------ Build started: Project: PA8ReleaseX86, Configuration: Release Win32 ------
+1>FileList.cpp
+1>SearchList.cpp
+1>6_Print_Results.cpp
+1>AList.cpp
+1>FileList_ReadOnly.cpp
+1>main.cpp
+1>Node.cpp
+1>SearchList_ReadOnly.cpp
+1>0_CreateList_Test.cpp
+1>1_InsertSort_Test.cpp
+1>2_MergeSort_Test.cpp
+1>3_ComboSort_Test.cpp
+1>4_WriteToFile_Test.cpp
+1>5_ReconstructFromFile_Test.cpp
+1>Generating code
+1>Finished generating code
+1>PA8ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA8\Release\PA8ReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:25 PM and took 02.768 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+Original linked list---------------------------
+   Finding Key: 0.083800 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+ PASSED: CreateList_Test_Enable_Test 
+ PASSED: Insert_Test_Enable_Test 
+ PASSED: Merge_Test_Enable_Test 
+ PASSED: Combo_Test_Enable_Test 
+ PASSED: WriteToFile_Test_Enable_Test 
+ PASSED: ReadFromFile_Test_Enable_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 75
+         Mode: x86 Release 
+
+-----------------
+
+Creation of original List: 3.627600 ms
+
+       Insertion Time: 1138.636413 ms
+           Merge Time: 3.654200 ms
+
+Merge_Vs_Insert Ratio: 311.596649 faster
+
+           Combo Time: 3.473600 ms   Cutoff length: 96
+
+ Combo_Vs_Merge Ratio: 1.051992 faster
+
+-- Load In Place: enabled ---
+
+    Time to create File: 2.452100 ms  
+  Time to recreate list: 3.252700 ms  
+
+  Verify Time: 0.397300 ms  Result: 1

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Work">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Work::Name">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\keenan2023fall_csc461\instructor\Assignment\Final\Final_F2023\Final_F2023\Final\Work.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAhAA=</HashCode>
+      <FileName>C:\code\keenan2023fall_csc461\instructor\Assignment\Final\Final_F2023\Final_F2023\Final\Work.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

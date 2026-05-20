@@ -1,0 +1,213 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/15/2023
+changelist(pdf): 196008
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+Implicit errors:  19
+ 
+  RVO Build: success  
+ 
+--- 1st run RVO ---   
+   No_RVO: 0.827696 s
+using_RVO: 0.420791 s
+    Ratio: 1.967000 
+   
+--- 2nd run RVO ---   
+   No_RVO: 0.853292 s
+using_RVO: 0.424061 s
+    Ratio: 2.012189 
+   
+--- 3rd run RVO ---   
+   No_RVO: 0.821812 s
+using_RVO: 0.428931 s
+    Ratio: 1.915955 
+   
+  Proxy Build: success  
+ 
+--- 1st run Proxy ---   
+   No_Proxy: 1.627756 s
+using_Proxy: 0.438603 s
+      Ratio: 3.711227 
+   
+--- 2nd run Proxy ---   
+   No_Proxy: 1.652903 s
+using_Proxy: 0.449920 s
+      Ratio: 3.673771 
+   
+--- 3rd run Proxy ---   
+   No_Proxy: 1.640117 s
+using_Proxy: 0.440721 s
+      Ratio: 3.721439 
+   
+ 
+  Implicit Prevent Errors: 
+            [x  > 19] --> 1 pts 
+            [x  = 19] --> 2 pts 
+            [x <= 18] --> 1 pts 
+            [x <= 10] --> 0 pts 
+ 
+  RVO: 
+            [x <  0.55] --> 2 pts 
+            [x <  0.75] --> 1 pts 
+            [x >= 0.75] --> 0 pts 
+ 
+  Proxy:
+            [x <  0.75] --> 4 pts 
+            [x <  0.90] --> 3 pts 
+            [x <  1.05] --> 2 pts 
+            [x <  1.25] --> 1 pts 
+            [x >= 1.25] --> 0 pts 
+---- For Grading ---- 
+ 
+Implicit Errors: 19
+             --> 2 pts
+ 
+using RVO : 0.420791
+        --> 2 pts
+ 
+using Proxy : 0.438603
+          --> 4 pts
+ 
+               Raw: 8
+        Deductions: 0
+       Final Score: 8
+
+ 
+  Implicit Prevent Errors: 
+            [x  > 19] --> 1 pts 
+            [x  = 19] --> 2 pts 
+            [x <= 18] --> 1 pts 
+            [x <= 10] --> 0 pts 
+ 
+  RVO: 
+            [x <  0.55] --> 2 pts 
+            [x <  0.75] --> 1 pts 
+            [x >= 0.75] --> 0 pts 
+ 
+  Proxy:
+            [x <  0.75] --> 4 pts 
+            [x <  0.90] --> 3 pts 
+            [x <  1.05] --> 2 pts 
+            [x <  1.25] --> 1 pts 
+            [x >= 1.25] --> 0 pts 
+---- For Grading ---- 
+ 
+Implicit Errors: 19
+             --> 2 pts
+ 
+using RVO : 0.420791
+        --> 2 pts
+ 
+using Proxy : 0.438603
+          --> 4 pts
+ 
+               Raw: 8
+        Deductions: 0
+       Final Score: 8
+
+Build started...
+1>------ Build started: Project: ImplicitPrevent, Configuration: PREVENT Win32 ------
+1>Implicit_Prevention_Test.cpp
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(29,4): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(38,27): message : see declaration of 'Vect::setX'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(30,4): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(39,27): message : see declaration of 'Vect::setY'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(31,4): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(40,27): message : see declaration of 'Vect::setZ'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(35,4): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(38,27): message : see declaration of 'Vect::setX'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(36,4): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(39,27): message : see declaration of 'Vect::setY'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(37,4): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(40,27): message : see declaration of 'Vect::setZ'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(41,4): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(38,27): message : see declaration of 'Vect::setX'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(42,4): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(39,27): message : see declaration of 'Vect::setY'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(43,4): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(40,27): message : see declaration of 'Vect::setZ'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(45,8): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(42,47): message : see declaration of 'Vect::Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(46,8): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(42,47): message : see declaration of 'Vect::Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(47,8): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(42,47): message : see declaration of 'Vect::Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(48,8): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(42,47): message : see declaration of 'Vect::Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(49,8): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(42,47): message : see declaration of 'Vect::Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(53,4): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(41,52): message : see declaration of 'Vect::set'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(54,4): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(41,52): message : see declaration of 'Vect::set'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(55,4): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(41,52): message : see declaration of 'Vect::set'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(56,4): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(41,52): message : see declaration of 'Vect::set'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Test\Implicit_Prevention_Test.cpp(57,4): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(41,52): message : see declaration of 'Vect::set'
+1>C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Implicit\Implicit.h(12,7): message : see declaration of 'Vect'
+1>Implicit.cpp
+1>main.cpp
+1>No_Implicit.cpp
+1>Generating Code...
+1>Done building project "ImplicitPrevent.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:41 PM and took 03.673 seconds ==========
+
+Build started...
+1>------ Build started: Project: RVODebugX86, Configuration: Debug Win32 ------
+1>RVO.cpp
+1>RVOTest.cpp
+1>main.cpp
+1>No_RVO.cpp
+1>Generating Code...
+1>RVODebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Debug\RVODebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:43 PM and took 04.145 seconds ==========
+
+Build started...
+1>------ Build started: Project: ProxyReleaseX86, Configuration: Release Win32 ------
+1>Proxy.cpp
+1>main.cpp
+1>Proxy_Readonly.cpp
+1>ProxyTest.cpp
+1>No_Proxy.cpp
+1>ProxyReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA5\Release\ProxyReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 9:41 PM and took 02.193 seconds ==========
+

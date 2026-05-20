@@ -1,0 +1,113 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/19/2023
+changelist(pdf): 192846
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 15
+[x86 Debug]  Failed: 0
+   
+ 
+   --- For grading --- 
+
+         Unit Pass: 15
+       Unit Failed: 0
+
+               Raw: 15
+        Deductions: 0.0
+  (Non-Redo) Score: 15.0
+  Redo Final Score: 12.75
+
+Build started...
+1>------ Build started: Project: Basics1DebugX86, Configuration: Debug Win32 ------
+1>Monkey.cpp
+1>Nyble.cpp
+1>01_Monkey_SimpleCreate_test.cpp
+1>02_Monkey_SpecializedConstructor_test.cpp
+1>03_Monkey_SpecializedConstuctorWithDefault_test.cpp
+1>04_Monkey_NewFunction_test.cpp
+1>05_Monkey_Scope_test.cpp
+1>06_Monkey_CopyConstructor_test.cpp
+1>07_Monkey_AssignmentOp_test.cpp
+1>08_Monkey_AssignmentOp2_test.cpp
+1>09_Nyble_Simple_test.cpp
+1>10_Nyble_AddOp_test.cpp
+1>11_Nyble_IncrementOps_test.cpp
+1>12_Nyble_BitShift_test.cpp
+1>13_Nyble_SpecialOps_test.cpp
+1>14_Nyble_SpecialOps2_test.cpp
+1>15_Nyble_SpecialOps3_test.cpp
+1>main.cpp
+1>Basics1DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Debug\Basics1DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 11:38 AM and took 03.748 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Monkey_SimpleCreate_Test 
+ PASSED: Monkey_SpecializedConstructor_Test 
+ PASSED: Monkey_SpecializedConstructorWithDefault_Test 
+ PASSED: Monkey_NewFunction_Test 
+ PASSED: Monkey_Scope_Test 
+ PASSED: Monkey_CopyConstructor_Test 
+ PASSED: Monkey_AssignmentOp_Test 
+ PASSED: Monkey_AssignmentOp2_Test 
+ PASSED: Nyble_Simple_Test 
+ PASSED: Nyble_AddOp_Test 
+ PASSED: Nyble_IncrementOps_Test 
+ PASSED: Nyble_BitShift_Test 
+ PASSED: Nyble_SpecialOps_Test 
+ PASSED: Nyble_SpecialOps2_Test 
+ PASSED: Nyble_SpecialOps3_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 15
+[x86 Debug]  Failed: 0
+
+   Test Count: 15
+ Indiv Checks: 235
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

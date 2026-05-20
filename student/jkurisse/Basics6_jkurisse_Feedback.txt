@@ -1,0 +1,108 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/19/2023
+changelist(pdf): 196406
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 2
+   
+   --- For grading --- 
+
+         Unit Pass: 8
+       Unit Failed: 2
+
+               Raw: 8
+        Deductions: 0.0
+       Final Score: 8.0
+
+Build started...
+1>------ Build started: Project: Basics6DebugX86, Configuration: Debug Win32 ------
+1>vTableQuestions_A.cpp
+1>vTableQuestions_B.cpp
+1>vTableQuestions_C.cpp
+1>vTableQuestions_D.cpp
+1>vTableQuestions_E.cpp
+1>vTableQuestions_F.cpp
+1>vTableQuestions_G.cpp
+1>vTableQuestions_M.cpp
+1>vTableQuestions_N.cpp
+1>vTableQuestions_O.cpp
+1>answerRegistry.cpp
+1>vTableUnitTests.cpp
+1>main.cpp
+1>Basics6DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics6\Debug\Basics6DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 12:45 AM and took 02.592 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: vtable1_A_test_Test 
+ PASSED: vtable1_B_test_Test 
+ PASSED: vtable1_C_test_Test 
+ PASSED: vtable1_D_test_Test 
+ PASSED: vtable1_E_test_Test 
+ PASSED: vtable1_F_test_Test 
+ PASSED: vtable1_G_test_Test 
+ PASSED: vtable1_M_test_Test 
+-FAILED: vtable1_N_test_Test 
+	check 'Answer::getAnswer( 83 )' not equal '0xf00A' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Basics6\Test\vTableUnitTests.cpp(204): <double-click> 
+-FAILED: vtable1_O_test_Test 
+	check 'Answer::getAnswer( 93 )' not equal '0xF00e' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Basics6\Test\vTableUnitTests.cpp(225): <double-click> 
+
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 2
+
+   Test Count: 10
+ Indiv Checks: 126
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

@@ -1,0 +1,187 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 11/15/2023
+changelist(pdf): 199709
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 16
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 16
+[x86 Release]  Failed: 0
+   
+ 
+   --- For grading --- 
+
+         Unit Pass: 16
+       Unit Failed: 0
+
+               Raw: 16
+        Deductions: 0.0
+       Final Score: 16.0
+
+Build started...
+1>------ Build started: Project: PA9DebugX86, Configuration: Debug Win32 ------
+1>Boustrophedonic.cpp
+1>NodeTest_N00.cpp
+1>NodeTest_N01.cpp
+1>NodeTest_N02.cpp
+1>NodeTest_N03.cpp
+1>NodeTest_N10.cpp
+1>NodeTest_N11.cpp
+1>NodeTest_N12.cpp
+1>NodeTest_N13.cpp
+1>NodeTest_N20.cpp
+1>NodeTest_N21.cpp
+1>NodeTest_N22.cpp
+1>NodeTest_N23.cpp
+1>NodeTest_N30.cpp
+1>NodeTest_N31.cpp
+1>NodeTest_N32.cpp
+1>NodeTest_N33.cpp
+1>main.cpp
+1>Node.cpp
+1>PA9DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA9\Debug\PA9DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 8:43 PM and took 03.761 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Delete00_Test 
+ PASSED: Delete01_Test 
+ PASSED: Delete02_Test 
+ PASSED: Delete03_Test 
+ PASSED: Delete10_Test 
+ PASSED: Delete11_Test 
+ PASSED: Delete12_Test 
+ PASSED: Delete13_Test 
+ PASSED: Delete20_Test 
+ PASSED: Delete21_Test 
+ PASSED: Delete22_Test 
+ PASSED: Delete23_Test 
+ PASSED: Delete30_Test 
+ PASSED: Delete31_Test 
+ PASSED: Delete32_Test 
+ PASSED: Delete33_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 16
+[x86 Debug]  Failed: 0
+
+   Test Count: 16
+ Indiv Checks: 2064
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+Build started...
+1>------ Build started: Project: PA9ReleaseX86, Configuration: Release Win32 ------
+1>Boustrophedonic.cpp
+1>NodeTest_N00.cpp
+1>NodeTest_N01.cpp
+1>NodeTest_N02.cpp
+1>NodeTest_N03.cpp
+1>NodeTest_N10.cpp
+1>NodeTest_N11.cpp
+1>NodeTest_N12.cpp
+1>NodeTest_N13.cpp
+1>NodeTest_N20.cpp
+1>NodeTest_N21.cpp
+1>NodeTest_N22.cpp
+1>NodeTest_N23.cpp
+1>NodeTest_N30.cpp
+1>NodeTest_N31.cpp
+1>NodeTest_N32.cpp
+1>NodeTest_N33.cpp
+1>main.cpp
+1>Node.cpp
+1>Generating code
+1>Finished generating code
+1>PA9ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA9\Release\PA9ReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 8:44 PM and took 04.207 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+ PASSED: Delete00_Test 
+ PASSED: Delete01_Test 
+ PASSED: Delete02_Test 
+ PASSED: Delete03_Test 
+ PASSED: Delete10_Test 
+ PASSED: Delete11_Test 
+ PASSED: Delete12_Test 
+ PASSED: Delete13_Test 
+ PASSED: Delete20_Test 
+ PASSED: Delete21_Test 
+ PASSED: Delete22_Test 
+ PASSED: Delete23_Test 
+ PASSED: Delete30_Test 
+ PASSED: Delete31_Test 
+ PASSED: Delete32_Test 
+ PASSED: Delete33_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 16
+[x86 Release]  Failed: 0
+
+   Test Count: 16
+ Indiv Checks: 2064
+         Mode: x86 Release 
+
+-----------------

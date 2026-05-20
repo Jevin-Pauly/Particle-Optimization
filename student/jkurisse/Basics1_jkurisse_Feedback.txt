@@ -1,0 +1,67 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/14/2023
+changelist(pdf): 192159
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: failed ... Grade 0   
+[x86 Debug]   RUN: failed ... Grade 0 
+ 
+       MEMORY: failed ... 20% deduction  
+ 
+   
+ 
+   --- For grading --- 
+
+         Unit Pass: 0
+       Unit Failed: 0
+
+               Raw: 0.0
+        Deductions: 0.0
+       Final Score: 0.0
+
+Build started...
+1>------ Build started: Project: Basics1DebugX86, Configuration: Debug Win32 ------
+1>Monkey.cpp
+1>Nyble.cpp
+1>01_Monkey_SimpleCreate_test.cpp
+1>02_Monkey_SpecializedConstructor_test.cpp
+1>03_Monkey_SpecializedConstuctorWithDefault_test.cpp
+1>04_Monkey_NewFunction_test.cpp
+1>05_Monkey_Scope_test.cpp
+1>06_Monkey_CopyConstructor_test.cpp
+1>07_Monkey_AssignmentOp_test.cpp
+1>08_Monkey_AssignmentOp2_test.cpp
+1>09_Nyble_Simple_test.cpp
+1>10_Nyble_AddOp_test.cpp
+1>11_Nyble_IncrementOps_test.cpp
+1>12_Nyble_BitShift_test.cpp
+1>13_Nyble_SpecialOps_test.cpp
+1>14_Nyble_SpecialOps2_test.cpp
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(15,2): error C2220: the following warning is treated as an error
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(15,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(27,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(38,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(53,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\code\keenan2023fall_csc461\student\jkurisse\Basics1\Basics1\Monkey.cpp(62,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>15_Nyble_SpecialOps3_test.cpp
+1>main.cpp
+1>Done building project "Basics1DebugX86.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 4:25 PM and took 03.525 seconds ==========
+

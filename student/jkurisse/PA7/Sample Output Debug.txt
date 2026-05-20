@@ -1,0 +1,61 @@
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Collide_Tests_Test 
+ PASSED: Col_Tests_Test 
+ PASSED: Row_Tests_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 3
+[x86 Debug]  Failed: 0
+
+   Test Count: 3
+ Indiv Checks: 324
+         Mode: x86 Debug 
+
+-----------------
+
+Performance tests: 
+    Begin()
+
+---------- Collide ----------------
+        collide Orig: 8.832661 s   :66462247
+                SIMD: 3.935837 s   :66462247
+        collide SIMD: 3.935837 s ---> Unit Test Passed 
+               Ratio: 2.244163
+
+---------- rowMajor ----------------
+       rowMajor Orig: 1.305394 s   :2.688214 2.448029 4.739550 0.747000
+                SIMD: 2.397343 s   :2.688214 2.448029 4.739550 0.747000
+       rowMajor SIMD: 2.397343 s ---> Unit Test Passed 
+               Ratio: 0.544517
+
+---------- colMajor ----------------
+       colMajor Orig: 2.717921 s    :1.334378 2.824099 4.656514 1.313000
+                SIMD: 1.449085 s    :1.334379 2.824100 4.656515 1.313000
+       colMajor SIMD: 1.449085 s ---> Unit Test Passed
+               Ratio: 1.875611
+
+Performance tests: done() 
+
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------

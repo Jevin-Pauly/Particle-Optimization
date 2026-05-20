@@ -1,0 +1,551 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/22/2023
+changelist(pdf): 193261
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+       MEMORY: success  
+ 
+  ALIGN_PRINT: success 
+ 
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 8
+[x86 Release]  Failed: 0
+   
+--- 1st run  ---   
+  Bloated List create: 1.865983 s
+  Jedi Bloated List create: 1.840452 s
+      HotCold convert: 54.927101 ms
+         Bloated find: 8.235300 ms
+         HotCold find: 0.514800 ms
+  Jedi Bloated List create: 1.840452 s
+      Jedi HotCold convert: 53.683801 ms
+         Jedi Bloated find: 8.127800 ms
+         Jedi HotCold find: 0.224200 ms
+   
+--- 2nd run  ---   
+  Bloated List create: 2.077685 s
+  Jedi Bloated List create: 1.938427 s
+      HotCold convert: 56.039501 ms
+         Bloated find: 8.373300 ms
+         HotCold find: 0.527300 ms
+  Jedi Bloated List create: 1.938427 s
+      Jedi HotCold convert: 57.250701 ms
+         Jedi Bloated find: 8.578800 ms
+         Jedi HotCold find: 0.231800 ms
+   
+--- 3rd run  ---   
+  Bloated List create: 1.905918 s
+  Jedi Bloated List create: 1.858601 s
+      HotCold convert: 54.152801 ms
+         Bloated find: 8.378200 ms
+         HotCold find: 0.538700 ms
+  Jedi Bloated List create: 1.858601 s
+      Jedi HotCold convert: 56.076701 ms
+         Jedi Bloated find: 8.706600 ms
+         Jedi HotCold find: 0.235000 ms
+   
+ 
+ Hot/Cold convert [x <= 100 ms] --> 1 pt 
+                  [x >  100 ms] --> 0 pt 
+
+ Hot/Cold find    [x <=  0.75 ms] --> 2 pts 
+                  [x <=  1.25 ms] --> 1 pt 
+                  [x >   1.25 ms] --> 0 pt 
+
+ Jedi find        [x <=  0.35 ms] --> 2 pts 
+                  [x <=  0.50 ms] --> 1 pt 
+                  [x >   0.50 ms] --> 0 pt 
+ 
+---- For Grading ---- 
+ 
+using Hot/Cold Convert time: 54.152801 ms
+                --> 1.0 pts
+ 
+using Hot/Cold Find time: 0.5148 ms
+             --> 2.0 pts
+ 
+using Jedi Find time: 0.2242 ms
+                  --> 2.0 pts
+ 
+ 
+   --- For grading --- 
+
+         Unit Test: 8
+       Align Print: 1.0
+  Hot/Cold convert: 1.0
+  Hot/Cold    find: 2.0
+  Jedi        find: 2.0
+
+         Unit Pass: 8
+       Unit Failed: 0
+
+               Raw: 14.0
+        Deductions: 0.0
+       Final Score: 14.0
+
+Build started...
+1>------ Build started: Project: PA2DebugX86, Configuration: Debug Win32 ------
+1>Align.cpp
+1>AlignData.cpp
+1>Bloated_FindKey.cpp
+1>ColdNode.cpp
+1>HotCold.cpp
+1>HotNode.cpp
+1>JediColdNode.cpp
+1>JediHotCold.cpp
+1>JediHotNode.cpp
+1>JediRedirect.cpp
+1>Matrix.cpp
+1>Vect.cpp
+1>AlignmentPrint_Tests.cpp
+1>AlignmentRework_Tests.cpp
+1>BloatedFindKey_Tests.cpp
+1>HotColdConvert_Tests.cpp
+1>HotColdLink_Tests.cpp
+1>HotColdTiming_Tests.cpp
+1>JediHotColdConvert_Tests.cpp
+1>JediHotColdTiming_Tests.cpp
+1>Bloated.cpp
+1>main.cpp
+1>Node.cpp
+1>PA2DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA2\Debug\PA2DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:54 AM and took 04.078 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+data A:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+------------------------
+size: 8 padding: 3
+
+data B:
+  0x00: 00 00 00 00 
+  0x04: 00 00 00 00 
+  0x08: 00 AA AA AA 
+  0x0C: 00 00 00 00 
+------------------------
+size: 16 padding: 3
+
+data C:
+  0x00: 00 AA AA AA 
+  0x04: AA AA AA AA 
+  0x08: 00 00 00 00 
+  0x0C: 00 00 00 00 
+  0x10: 00 AA AA AA 
+  0x14: AA AA AA AA 
+------------------------
+size: 24 padding: 14
+
+data D:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+  0x08: 00 00 00 00 
+  0x0C: 00 00 00 00 
+  0x10: 00 00 00 00 
+  0x14: 00 00 00 00 
+  0x18: 00 AA AA AA 
+  0x1C: 00 00 00 00 
+  0x20: 00 AA AA AA 
+  0x24: AA AA AA AA 
+  0x28: 00 AA AA AA 
+  0x2C: AA AA AA AA 
+  0x30: 00 00 00 00 
+  0x34: 00 00 00 00 
+  0x38: 00 AA AA AA 
+  0x3C: AA AA AA AA 
+------------------------
+size: 64 padding: 27
+
+data E:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+  0x08: 00 AA AA AA 
+  0x0C: AA AA AA AA 
+  0x10: 00 00 00 00 
+  0x14: 00 00 00 00 
+  0x18: 00 AA AA AA 
+  0x1C: AA AA AA AA 
+  0x20: 00 AA AA AA 
+  0x24: 00 00 00 00 
+  0x28: 00 00 00 00 
+  0x2C: 00 AA AA AA 
+  0x30: 00 00 00 00 
+  0x34: AA AA AA AA 
+------------------------
+size: 56 padding: 27
+
+ PASSED: Print_Alignment_Test 
+ PASSED: Rework_Alignment_Test 
+ PASSED: FindKey_Bloated_Test 
+ PASSED: Convert_HotCold_Test 
+ PASSED: Link_HotCold_Test 
+
+ --- HotCold Problem ------------------
+
+  Bloated List create: 5.873482 s
+      HotCold convert: 67.409401 ms
+
+         Bloated find: 8.381800 ms
+         HotCold find: 0.888300 ms
+
+                Ratio: 9.435776 
+
+ PASSED: Timing_HotCold_Test 
+ PASSED: Jedi_Convert_HotCold_Test 
+
+ --- JEDI Problem ------------------
+
+  Jedi Bloated List create: 5.901274 s
+      Jedi HotCold convert: 72.550901 ms
+
+         Jedi Bloated find: 8.864800 ms
+         Jedi HotCold find: 0.480000 ms
+
+                Jedi Ratio: 18.468333 
+
+ PASSED: Jedi_Timing_HotCold_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 0
+
+   Test Count: 8
+ Indiv Checks: 4672
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+Build started...
+1>------ Build started: Project: PA2ReleaseX86, Configuration: Release Win32 ------
+1>Align.cpp
+1>AlignData.cpp
+1>Bloated_FindKey.cpp
+1>ColdNode.cpp
+1>HotCold.cpp
+1>HotNode.cpp
+1>JediColdNode.cpp
+1>JediHotCold.cpp
+1>JediHotNode.cpp
+1>JediRedirect.cpp
+1>Matrix.cpp
+1>Vect.cpp
+1>AlignmentPrint_Tests.cpp
+1>AlignmentRework_Tests.cpp
+1>BloatedFindKey_Tests.cpp
+1>HotColdConvert_Tests.cpp
+1>HotColdLink_Tests.cpp
+1>HotColdTiming_Tests.cpp
+1>JediHotColdConvert_Tests.cpp
+1>JediHotColdTiming_Tests.cpp
+1>Bloated.cpp
+1>main.cpp
+1>Node.cpp
+1>Generating code
+1>Previous IPDB not found, fall back to full compilation.
+1>All 208 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+1>Finished generating code
+1>PA2ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA2\Release\PA2ReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:55 AM and took 08.256 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+data A:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+------------------------
+size: 8 padding: 3
+
+data B:
+  0x00: 00 00 00 00 
+  0x04: 00 00 00 00 
+  0x08: 00 AA AA AA 
+  0x0C: 00 00 00 00 
+------------------------
+size: 16 padding: 3
+
+data C:
+  0x00: 00 AA AA AA 
+  0x04: AA AA AA AA 
+  0x08: 00 00 00 00 
+  0x0C: 00 00 00 00 
+  0x10: 00 AA AA AA 
+  0x14: AA AA AA AA 
+------------------------
+size: 24 padding: 14
+
+data D:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+  0x08: 00 00 00 00 
+  0x0C: 00 00 00 00 
+  0x10: 00 00 00 00 
+  0x14: 00 00 00 00 
+  0x18: 00 AA AA AA 
+  0x1C: 00 00 00 00 
+  0x20: 00 AA AA AA 
+  0x24: AA AA AA AA 
+  0x28: 00 AA AA AA 
+  0x2C: AA AA AA AA 
+  0x30: 00 00 00 00 
+  0x34: 00 00 00 00 
+  0x38: 00 AA AA AA 
+  0x3C: AA AA AA AA 
+------------------------
+size: 64 padding: 27
+
+data E:
+  0x00: 00 00 00 00 
+  0x04: 00 AA AA AA 
+  0x08: 00 AA AA AA 
+  0x0C: AA AA AA AA 
+  0x10: 00 00 00 00 
+  0x14: 00 00 00 00 
+  0x18: 00 AA AA AA 
+  0x1C: AA AA AA AA 
+  0x20: 00 AA AA AA 
+  0x24: 00 00 00 00 
+  0x28: 00 00 00 00 
+  0x2C: 00 AA AA AA 
+  0x30: 00 00 00 00 
+  0x34: AA AA AA AA 
+------------------------
+size: 56 padding: 27
+
+ PASSED: Print_Alignment_Test 
+ PASSED: Rework_Alignment_Test 
+ PASSED: FindKey_Bloated_Test 
+ PASSED: Convert_HotCold_Test 
+ PASSED: Link_HotCold_Test 
+
+ --- HotCold Problem ------------------
+
+  Bloated List create: 1.887217 s
+      HotCold convert: 55.402401 ms
+
+         Bloated find: 8.356100 ms
+         HotCold find: 0.534500 ms
+
+                Ratio: 15.633489 
+
+ PASSED: Timing_HotCold_Test 
+ PASSED: Jedi_Convert_HotCold_Test 
+
+ --- JEDI Problem ------------------
+
+  Jedi Bloated List create: 1.875989 s
+      Jedi HotCold convert: 54.243101 ms
+
+         Jedi Bloated find: 8.440100 ms
+         Jedi HotCold find: 0.225200 ms
+
+                Jedi Ratio: 37.478242 
+
+ PASSED: Jedi_Timing_HotCold_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 8
+[x86 Release]  Failed: 0
+
+   Test Count: 8
+ Indiv Checks: 4672
+         Mode: x86 Release 
+
+-----------------
+//-----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------- 
+
+// user headers
+#include "bloated.h"
+#include "Node.h"
+
+//----------------------------------------------------------------------------------
+// Find Key using linked lists (pointers only) 
+//    Hint: use ->pNext
+//    YOU MUST - iterate through the nodes in a linked list fashion or 0 credit
+//               starting from the head until you find it
+//
+// Return true if you find the node
+// Return the pointer in the argument list to the node (if found)
+//----------------------------------------------------------------------------------
+
+bool Bloated::FindKey(int key, Node *&foundNode) const
+{
+	Node* test = GetListHead();
+	while (test != NULL)
+	{
+		if (test->key == key)
+		{
+			foundNode = test;
+			return true;
+		}
+		test = test->pNext;
+	}
+
+	//If key not found
+	return false;
+}
+
+// ---  End of File ---
+
+//-----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------- 
+
+// Users
+#include "Bloated.h"
+#include "Node.h"
+#include "hotcold.h"
+
+
+HotCold::HotCold(const Bloated * const pBloated)
+{
+    pHotHead = nullptr;
+    pColdHead = nullptr;
+
+    //Get bloated head
+    Node* curr = pBloated->GetListHead();
+    unsigned int NodeSize = 0;
+
+
+    //Finding bloatedsize
+    while (curr != nullptr)
+    {
+        curr = curr->pNext;
+        NodeSize++;
+    }
+
+    //Creating a hot and cold array of size nodesize
+    HotNode* hotArray = new HotNode[NodeSize];
+    ColdNode* coldArray = new ColdNode[NodeSize];             
+    curr = pBloated->GetListHead();
+    pColdHead = coldArray;
+    pHotHead = hotArray;
+
+    //Setting top, bottom and current
+    HotNode* pointTop = hotArray;
+    HotNode* pointBottom = hotArray + NodeSize - 1;
+    HotNode* pointCurrent = pointTop;
+
+    //Iterating through the array of nodes to copy data from bloated
+    unsigned int x = 0;
+    while (x < NodeSize)
+    {  
+        coldArray->copy(*curr); 
+        pointCurrent->pCold = coldArray; 
+        pointCurrent->key = curr->key;
+        pointCurrent->pNext = (pointCurrent + 1);
+        pointCurrent->pPrev = (pointCurrent - 1);
+        coldArray++;
+        pointCurrent++;
+        curr++;
+        x++;
+    }
+
+    //Set the pointers to the edges in the array of nodes to null
+    pointBottom->pNext = nullptr;
+    pointTop->pPrev = nullptr;
+
+}
+
+HotCold::~HotCold()
+{
+    delete[] pColdHead;
+    delete[] pHotHead;
+}
+
+    
+
+//----------------------------------------------------------------------------------
+// Find Key using linked lists (pointers only) 
+//    Hint: use ->pNext
+//    YOU MUST - iterate through the nodes in a linked list fashion or 0 credit
+//
+// Return true if you find the node
+// Return the pointer in the argument list to the HotNode and ColdNode (if found)
+//----------------------------------------------------------------------------------
+bool HotCold::FindKey(int key, ColdNode *&pFoundColdNode, HotNode *&pFoundHotNode)
+{
+	//for (HotNode* test = GetHotHead(); test != NULL; test = test->pNext)
+    HotNode* test = GetHotHead();
+    while (test != NULL)
+	{
+        if (test->key == key)
+        {
+            pFoundHotNode = test;
+            pFoundColdNode = test->pCold;
+            return true;
+        }
+        test = test->pNext;
+	}
+
+	return false;
+}
+
+HotNode *HotCold::GetHotHead() const
+{
+	return this->pHotHead;
+}
+
+// ---  End of File ---
+

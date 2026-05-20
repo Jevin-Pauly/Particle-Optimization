@@ -1,0 +1,27 @@
+-------------------------------------------------
+
+Log File 
+
+Name: Student_ Test_01
+Mode: x86_Release
+
+-------------------------------------------------
+
+Test 1: 
+
+     Mem mem(Mem::Guard::Type_A);  
+     mem.initialize();                      
+     mem.Print(1);                          
+
+------- Print 1 -------------
+
+heapStart: 0x014A13E0     
+  heapEnd: 0x014ADBE0   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x014A1400     
+ pNextFit: 0x014A1400   
+
+Heap Hdr   s: 014A13E0  e: 014A1400                            size: 0x20 
+FREE HDR   s: 014A1400  e: 014A140C  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 014A140C  e: 014ADBE0                            size: 0xc7d4 

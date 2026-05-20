@@ -1,0 +1,123 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 11/9/2023
+changelist(pdf): 199165
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 1
+[x86 Debug]  Failed: 1
+   
+   --- For grading --- 
+
+         Unit Pass: 1
+       Unit Failed: 1
+
+               Raw: 1
+        Deductions: 0.0
+       Final Score: 1.0
+
+Build started...
+1>------ Build started: Project: Parse, Configuration: Debug Win32 ------
+1>Chunk.cpp
+1>main.cpp
+1>Parse.cpp
+1>Parse.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics9\Debug\Parse.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 7:27 PM and took 02.149 seconds ==========
+
+Build started...
+1>------ Build started: Project: Parse, Configuration: Debug Win32 ------
+1>Chunk.cpp
+1>main.cpp
+1>Parse.cpp
+1>Parse.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics9\Debug\Parse.exe
+2>------ Build started: Project: Ellipsis, Configuration: Debug Win32 ------
+2>Parse_Test.cpp
+2>SecondMax_tests.cpp
+2>main.cpp
+2>SecondMax.cpp
+2>Ellipsis.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics9\Debug\Ellipsis.exe
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 7:28 PM and took 03.705 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+-FAILED: Test_API_Enable_Test 
+	check 'val == 0' fail
+		C:\code\keenan2023fall_csc461\student\jkurisse\Basics9\Test\Parse_Test.cpp(24): <double-click> 
+ PASSED: SecondMax_test_enable_Test 
+
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 1
+[x86 Debug]  Failed: 1
+
+   Test Count: 2
+ Indiv Checks: 14
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

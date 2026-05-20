@@ -1,0 +1,277 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/29/2023
+changelist(pdf): 197438
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 3
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 3
+[x86 Release]  Failed: 0
+   
+--- 1st run  ---   
+        collide SIMD: 1.296290 s ---> Unit Test Passed 
+       rowMajor SIMD: 2.052430 s ---> Unit Test Passed 
+       colMajor SIMD: 1.935067 s ---> Unit Test Passed
+   
+--- 2nd run  ---   
+        collide SIMD: 1.287333 s ---> Unit Test Passed 
+       rowMajor SIMD: 2.046382 s ---> Unit Test Passed 
+       colMajor SIMD: 1.930300 s ---> Unit Test Passed
+   
+--- 3rd run  ---   
+        collide SIMD: 1.298063 s ---> Unit Test Passed 
+       rowMajor SIMD: 2.055383 s ---> Unit Test Passed 
+       colMajor SIMD: 1.927786 s ---> Unit Test Passed
+   
+ 
+  collide SIMD: 
+            [x <= 1.50] --> 2 pts 
+            [x <= 2.00] --> 1 pts 
+            [x >  2.00] --> 0 pts 
+ 
+  Row Major SIMD time: 
+            [x <= 2.50] --> 2.0 pts 
+            [x <= 2.85] --> 1.5 pts 
+            [x <= 3.15] --> 1.0 pts 
+            [x <= 3.50] --> 0.5 pts 
+            [x >  3.50] --> 0 pts 
+ 
+  Col Major SIMD time: 
+            [x <= 2.50] --> 2.0 pts 
+            [x <= 2.85] --> 1.5 pts 
+            [x <= 3.15] --> 1.0 pts 
+            [x <= 3.50] --> 0.5 pts 
+            [x >  3.50] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+using collide SIMD: 1.287333
+             --> 2 pts
+ 
+using Row Major SIMD: 2.046382
+                  --> 2.0 pts
+ 
+using Col Major SIMD: 1.927786
+                  --> 2.0 pts
+ 
+ 
+   --- For grading --- 
+
+         Unit Pass: 3
+       Unit Failed: 0
+
+               Raw: 6.0
+        Deductions: 0.0
+       Final Score: 6.0
+
+Build started...
+1>------ Build started: Project: SIMD, Configuration: Debug Win32 ------
+1>Box_SIMD.cpp
+1>Matrix_Col_SIMD.cpp
+1>Matrix_Row_SIMD.cpp
+1>Sphere_SIMD.cpp
+1>Vect_Col_SIMD.cpp
+1>Vect_Row_SIMD.cpp
+1>Vect4D_SIMD.cpp
+1>PerformanceTest.cpp
+1>Performance_CollideCPP.cpp
+1>Performance_CollideSIMD.cpp
+1>Performance_ColMajorCPP.cpp
+1>Performance_ColMajorSIMD.cpp
+1>Performance_RowMajorCpp.cpp
+1>Performance_RowMajorSIMD.cpp
+1>Unit_Verify_Collide_Math.cpp
+1>Unit_Verify_Col_Math.cpp
+1>Unit_Verify_Row_Math.cpp
+1>Box.cpp
+1>main.cpp
+1>Matrix.cpp
+1>Sphere.cpp
+1>Vect4D.cpp
+1>PA7DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA7\Debug\SIMDDebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:54 PM and took 03.837 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Collide_Tests_Test 
+ PASSED: Col_Tests_Test 
+ PASSED: Row_Tests_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 3
+[x86 Debug]  Failed: 0
+
+   Test Count: 3
+ Indiv Checks: 324
+         Mode: x86 Debug 
+
+-----------------
+
+Performance tests: 
+    Begin()
+
+---------- Collide ----------------
+           : Collide
+           : Collide SIMD
+        collide Orig: 7.759423 s   :66462247
+                SIMD: 3.653000 s   :66462247
+        collide SIMD: 3.653000 s ---> Unit Test Passed 
+               Ratio: 2.124123
+
+---------- rowMajor ----------------
+           : rowMajor
+           : rowMajor SIMD
+       rowMajor Orig: 1.193768 s   :2.688214 2.448029 4.739550 0.747000
+                SIMD: 1.409086 s   :2.688214 2.448029 4.739550 0.747000
+       rowMajor SIMD: 1.409086 s ---> Unit Test Passed 
+               Ratio: 0.847193
+
+---------- colMajor ----------------
+           : colMajor
+           : colMajor SIMD
+       colMajor Orig: 2.484929 s    :1.334378 2.824099 4.656514 1.313000
+                SIMD: 1.182606 s    :1.334379 2.824100 4.656515 1.313000
+       colMajor SIMD: 1.182606 s ---> Unit Test Passed
+               Ratio: 2.101232
+
+Performance tests: done() 
+
+
+    done() 
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+Build started...
+1>------ Build started: Project: SIMD, Configuration: Release Win32 ------
+1>Box_SIMD.cpp
+1>Matrix_Col_SIMD.cpp
+1>Matrix_Row_SIMD.cpp
+1>Sphere_SIMD.cpp
+1>Vect_Col_SIMD.cpp
+1>Vect_Row_SIMD.cpp
+1>Vect4D_SIMD.cpp
+1>PerformanceTest.cpp
+1>Performance_CollideCPP.cpp
+1>Performance_CollideSIMD.cpp
+1>Performance_ColMajorCPP.cpp
+1>Performance_ColMajorSIMD.cpp
+1>Performance_RowMajorCpp.cpp
+1>Performance_RowMajorSIMD.cpp
+1>Unit_Verify_Collide_Math.cpp
+1>Unit_Verify_Col_Math.cpp
+1>Unit_Verify_Row_Math.cpp
+1>Box.cpp
+1>main.cpp
+1>Matrix.cpp
+1>Sphere.cpp
+1>Vect4D.cpp
+1>PA7ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA7\Release\SIMDReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:55 PM and took 05.721 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+ PASSED: Collide_Tests_Test 
+ PASSED: Col_Tests_Test 
+ PASSED: Row_Tests_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 3
+[x86 Release]  Failed: 0
+
+   Test Count: 3
+ Indiv Checks: 324
+         Mode: x86 Release 
+
+-----------------
+
+Performance tests: 
+    Begin()
+
+---------- Collide ----------------
+           : Collide
+           : Collide SIMD
+        collide Orig: 3.571802 s   :66462247
+                SIMD: 1.284106 s   :66462247
+        collide SIMD: 1.284106 s ---> Unit Test Passed 
+               Ratio: 2.781548
+
+---------- rowMajor ----------------
+           : rowMajor
+           : rowMajor SIMD
+       rowMajor Orig: 3.461704 s   :2.688214 2.448029 4.739550 0.747000
+                SIMD: 2.039543 s   :2.688214 2.448029 4.739550 0.747000
+       rowMajor SIMD: 2.039543 s ---> Unit Test Passed 
+               Ratio: 1.697293
+
+---------- colMajor ----------------
+           : colMajor
+           : colMajor SIMD
+       colMajor Orig: 8.970005 s    :1.334378 2.824099 4.656515 1.313000
+                SIMD: 1.930936 s    :1.334379 2.824100 4.656515 1.313000
+       colMajor SIMD: 1.930936 s ---> Unit Test Passed
+               Ratio: 4.645417
+
+Performance tests: done() 
+
+
+    done() 
+

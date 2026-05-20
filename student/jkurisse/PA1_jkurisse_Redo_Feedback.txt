@@ -1,0 +1,100 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/16/2023
+changelist(pdf): 192393
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 0
+   
+ 
+   --- For grading --- 
+
+         Unit Pass: 8
+       Unit Failed: 0
+
+               Raw: 8
+        Deductions: 0.0
+  (Non-Redo) Score: 8.0
+  Redo Final Score: 6.8
+
+Build started...
+1>------ Build started: Project: PA1DebugX86, Configuration: Debug Win32 ------
+1>HotDog.cpp
+1>Order.cpp
+1>Stand.cpp
+1>1_HotDog_Condiments_Tests.cpp
+1>2_HotDog_BigFour_Tests.cpp
+1>3_HotDog_Remove_Tests.cpp
+1>4_HotDog_Add_Tests.cpp
+1>5_Order_BigFour_Tests.cpp
+1>6_Order_Remove_Tests.cpp
+1>7_Order_Add_Tests.cpp
+1>8_Stress_Tests.cpp
+1>main.cpp
+1>PA1DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA1\Debug\PA1DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 1:04 PM and took 02.664 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Condiments_HotDog_Test 
+ PASSED: Big_Four_Test 
+ PASSED: Remove_HotDog_Test 
+ PASSED: Add_HotDog_Test 
+ PASSED: BigFour_Orders_Test 
+ PASSED: Remove_Orders_Test 
+ PASSED: Add_Orders_Test 
+ PASSED: ManyOperationsTogether_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 8
+[x86 Debug]  Failed: 0
+
+   Test Count: 8
+ Indiv Checks: 947
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

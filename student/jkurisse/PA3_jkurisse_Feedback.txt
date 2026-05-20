@@ -1,0 +1,140 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/30/23
+changelist(pdf): 194225
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+   
+ 
+---- For Grading ---- 
+ 
+ 
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 5
+        Deductions: 0.0
+       Final Score: 5.0
+
+Build started...
+1>------ Build started: Project: PA3DebugX86, Configuration: Debug Win32 ------
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>Used.cpp
+1>main.cpp
+1>MemReadOnly.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>PA3DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA3\Debug\PA3DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 12:10 AM and took 02.546 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Debug          **
+****************************************
+
+------ Testing DEBUG ----------
+
+ PASSED: Mem1_Initialize_Test 
+ PASSED: Mem2_Allocate_Everything_Test 
+ PASSED: Mem3_Allocate_Everything_Free_it_Test 
+ PASSED: Mem4_Partial_allocate_Test 
+ PASSED: Mem5_Partial_allocate_free_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 291
+         Mode: x86 Debug 
+
+-----------------
+Build started...
+1>------ Build started: Project: PA3ReleaseX86, Configuration: Release Win32 ------
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>Used.cpp
+1>main.cpp
+1>MemReadOnly.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>Generating code
+1>Finished generating code
+1>PA3ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA3\Release\PA3ReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 12:11 AM and took 02.613 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+ PASSED: Mem1_Initialize_Test 
+ PASSED: Mem2_Allocate_Everything_Test 
+ PASSED: Mem3_Allocate_Everything_Free_it_Test 
+ PASSED: Mem4_Partial_allocate_Test 
+ PASSED: Mem5_Partial_allocate_free_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 291
+         Mode: x86 Release 
+
+-----------------

@@ -1,0 +1,220 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/8/2023
+changelist(pdf): 195052
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+[x86 Debug]  Passed: 17
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 17
+[x86 Release]  Failed: 0
+   
+--- 1st run ---   
+Custom Memory: 526.032906 ms 
+   
+--- 2nd run ---   
+Custom Memory: 217.505803 ms 
+   
+--- 3rd run ---   
+Custom Memory: 213.492802 ms 
+   
+--- 4th run ---   
+Custom Memory: 213.076202 ms 
+   
+--- 5th run ---   
+Custom Memory: 213.794402 ms 
+   
+--- 6th run ---   
+Custom Memory: 217.766303 ms 
+   
+  using -->: 213.0762
+ 
+  custom stress time [x <= 450 ms] --> 4 pts 
+                     [x <= 500 ms] --> 3 pts 
+                     [x <= 550 ms] --> 2 pts 
+                     [x <= 600 ms] --> 1 pts 
+                     [x  > 600 ms] --> 0 pts 
+ 
+    Coalesce Scenario 1: 1 pts 
+    Coalesce Scenario 2: 1 pts 
+    Coalesce Scenario 3: 1 pts 
+ 
+ 
+   --- For grading --- 
+
+         Unit Pass: 17
+       Unit Failed: 0
+
+(test 16) Coalesce: 3
+       Stress Test: 1
+       Stress Time: 213.0762 --> 4 pts
+
+               Raw: 25
+        Deductions: 0.0
+       Exclude PA3: 5  (tests 1-5) 
+       Final Score: 20.0
+
+Build started...
+1>------ Build started: Project: PA4DebugX86, Configuration: Debug Win32 ------
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>Used.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>Mem_Test_06.cpp
+1>Mem_Test_07.cpp
+1>Mem_Test_08.cpp
+1>Mem_Test_09.cpp
+1>Mem_Test_10.cpp
+1>Mem_Test_11.cpp
+1>Mem_Test_12.cpp
+1>Mem_Test_13.cpp
+1>Mem_Test_14.cpp
+1>Mem_Test_15.cpp
+1>Mem_Test_16.cpp
+1>Mem_Test_17.cpp
+1>main.cpp
+1>MemReadOnly.cpp
+1>PA4DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA4\Debug\PA4DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 3:21 PM and took 03.823 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Debug          **
+****************************************
+
+------ Testing DEBUG ----------
+
+ PASSED: Mem1_Initialize_Test 
+ PASSED: Mem2_Allocate_Everything_Test 
+ PASSED: Mem3_Allocate_Everything_Free_it_Test 
+ PASSED: Mem4_Partial_allocate_Test 
+ PASSED: Mem5_Partial_allocate_free_Test 
+ PASSED: Mem6_Allocate_3_bottom_up_free_Test 
+ PASSED: Mem7_Allocate_3_Top_down_free_Test 
+ PASSED: Mem8_Allocate_3_middle_up_free_Test 
+ PASSED: Mem9_Allocate_3_middle_down_free_Test 
+ PASSED: Mem10_Allocate_3_100_middle_up_free_Test 
+ PASSED: Mem11_Allocate_3_100_middle_down_free_Test 
+ PASSED: Mem12_Allocate_3_100_bottom_up_free_Test 
+ PASSED: Mem13_Allocate_3_100_Top_Down_free_Test 
+ PASSED: Mem14_combo_1_Test 
+ PASSED: Mem15_combo_2_Test 
+ PASSED: Mem16_Secret_pointers_Test 
+ PASSED: Mem17_Exact_Alloc_Sets_Below_Flag_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 17
+[x86 Debug]  Failed: 0
+
+   Test Count: 17
+ Indiv Checks: 2483
+         Mode: x86 Debug 
+
+-----------------
+Build started...
+1>------ Build started: Project: PA4ReleaseX86, Configuration: Release Win32 ------
+1>Free.cpp
+1>Heap.cpp
+1>Mem.cpp
+1>Used.cpp
+1>Mem_Test_01.cpp
+1>Mem_Test_02.cpp
+1>Mem_Test_03.cpp
+1>Mem_Test_04.cpp
+1>Mem_Test_05.cpp
+1>Mem_Test_06.cpp
+1>Mem_Test_07.cpp
+1>Mem_Test_08.cpp
+1>Mem_Test_09.cpp
+1>Mem_Test_10.cpp
+1>Mem_Test_11.cpp
+1>Mem_Test_12.cpp
+1>Mem_Test_13.cpp
+1>Mem_Test_14.cpp
+1>Mem_Test_15.cpp
+1>Mem_Test_16.cpp
+1>Mem_Test_17.cpp
+1>main.cpp
+1>MemReadOnly.cpp
+1>Generating code
+1>Finished generating code
+1>PA4ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA4\Release\PA4ReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 3:22 PM and took 06.672 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+ PASSED: Mem1_Initialize_Test 
+ PASSED: Mem2_Allocate_Everything_Test 
+ PASSED: Mem3_Allocate_Everything_Free_it_Test 
+ PASSED: Mem4_Partial_allocate_Test 
+ PASSED: Mem5_Partial_allocate_free_Test 
+ PASSED: Mem6_Allocate_3_bottom_up_free_Test 
+ PASSED: Mem7_Allocate_3_Top_down_free_Test 
+ PASSED: Mem8_Allocate_3_middle_up_free_Test 
+ PASSED: Mem9_Allocate_3_middle_down_free_Test 
+ PASSED: Mem10_Allocate_3_100_middle_up_free_Test 
+ PASSED: Mem11_Allocate_3_100_middle_down_free_Test 
+ PASSED: Mem12_Allocate_3_100_bottom_up_free_Test 
+ PASSED: Mem13_Allocate_3_100_Top_Down_free_Test 
+ PASSED: Mem14_combo_1_Test 
+ PASSED: Mem15_combo_2_Test 
+ PASSED: Mem16_Secret_pointers_Test 
+ PASSED: Mem17_Exact_Alloc_Sets_Below_Flag_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 17
+[x86 Release]  Failed: 0
+
+   Test Count: 17
+ Indiv Checks: 2483
+         Mode: x86 Release 
+
+-----------------

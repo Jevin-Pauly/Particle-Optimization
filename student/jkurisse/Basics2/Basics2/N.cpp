@@ -1,0 +1,27 @@
+//-----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------- 
+
+#include "N.h"
+
+// Add code here if needed
+
+N::N()
+	: b(22)
+{
+}
+
+//N::N(int aVal, int bVal)
+//	: M(aVal), b(bVal)
+//{
+//}
+N::N(int bVal)
+	: b(bVal)
+{
+}
+
+void N::foo()
+{
+}
+
+// --- End of File ---

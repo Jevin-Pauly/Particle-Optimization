@@ -1,0 +1,105 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 9/22/2023
+changelist(pdf): 193249
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+-> WRAPPER: 14
+ 
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 5 (does not include wrapper error check)
+        Deductions: 0.0
+       Final Score: 5.0 (adds 1 pt if wrapper error checks are correct)
+
+Build started...
+1>------ Build started: Project: Basics2DebugX86, Configuration: Debug Win32 ------
+1>A.cpp
+1>D.cpp
+1>F.cpp
+1>G.cpp
+1>N.cpp
+1>O.cpp
+1>P.cpp
+1>Wrapper.cpp
+1>1_publicInheritanceTests.cpp
+1>2_publicInheritanceTests.cpp
+1>3_publicInheritanceTests.cpp
+1>4_publicInheritanceTests.cpp
+1>5_privateInheritanceTests.cpp
+1>B.cpp
+1>C.cpp
+1>E.cpp
+1>H.cpp
+1>M.cpp
+1>main.cpp
+1>MiddlewareNative.cpp
+1>Basics2DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics2\Debug\Basics2DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:30 AM and took 03.621 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Public1_Test 
+ PASSED: Public2_Test 
+ PASSED: Public3_Test 
+ PASSED: Public4_Test 
+ PASSED: Private1_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 127
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+

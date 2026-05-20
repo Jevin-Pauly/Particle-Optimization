@@ -1,0 +1,353 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 10/21/2023
+changelist(pdf): 196541
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+[x86 Release] BUILD: success  
+[x86 Release]   RUN: success 
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+   
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+   
+--- 1st run  ---   
+         Matrix SIMD: 1.294924 s ---> Unit Test Passed
+             vM SIMD: 1.780646 s ---> Unit Test Passed
+             Mv SIMD: 1.828795 s ---> Unit Test Passed
+           LERP SIMD: 1.057149 s ---> Unit Test Passed
+       Triangle SIMD: 0.458072 s ---> Unit Test Passed
+   
+--- 2nd run  ---   
+         Matrix SIMD: 1.293327 s ---> Unit Test Passed
+             vM SIMD: 1.793943 s ---> Unit Test Passed
+             Mv SIMD: 1.860531 s ---> Unit Test Passed
+           LERP SIMD: 1.053762 s ---> Unit Test Passed
+       Triangle SIMD: 0.472572 s ---> Unit Test Passed
+   
+--- 3rd run  ---   
+         Matrix SIMD: 1.284361 s ---> Unit Test Passed
+             vM SIMD: 1.762248 s ---> Unit Test Passed
+             Mv SIMD: 1.838544 s ---> Unit Test Passed
+           LERP SIMD: 1.057721 s ---> Unit Test Passed
+       Triangle SIMD: 0.454285 s ---> Unit Test Passed
+   
+ 
+  Matrix SIMD time: 
+            [x <= 1.75] --> 2 pts 
+            [x <= 2.25] --> 1 pts 
+            [x >  2.25] --> 0 pts 
+ 
+  Vect * Matrix SIMD time: 
+            [x <= 2.25] --> 2 pts 
+            [x <= 2.75] --> 1 pts 
+            [x >  2.75] --> 0 pts 
+ 
+  Matrix * Vect SIMD time: 
+            [x <= 2.25] --> 2 pts 
+            [x <= 2.75] --> 1 pts 
+            [x >  2.75] --> 0 pts 
+ 
+  LERP SIMD: 
+            [x <= 1.50] --> 2 pts 
+            [x <= 2.00] --> 1 pts 
+            [x >  2.00] --> 0 pts 
+ 
+  Triangle SIMD: 
+            [x <= 0.75] --> 2 pts 
+            [x <= 1.00] --> 1 pts 
+            [x >  1.00] --> 0 pts 
+ 
+---- For Grading ---- 
+ 
+using Matrix SIMD: 1.284361
+               --> 2 pts
+ 
+using Vect * Matrix SIMD: 1.762248
+                      --> 2 pts
+ 
+using Matrix * Vect SIMD: 1.828795
+                      --> 2 pts
+ 
+using LERP SIMD: 1.053762
+             --> 2 pts
+ 
+using Triangle SIMD: 0.454285
+             --> 2 pts
+ 
+ 
+   --- For grading --- 
+
+         Unit Pass: 5
+       Unit Failed: 0
+
+               Raw: 10
+        Deductions: 0.0
+       Final Score: 10.0
+
+Build started...
+1>------ Build started: Project: SIMD, Configuration: Debug Win32 ------
+1>Matrix_Mv_SIMD.cpp
+1>Matrix_M_SIMD.cpp
+1>Matrix_vM_SIMD.cpp
+1>Vect_LERP_SIMD.cpp
+1>Vect_Mv_SIMD.cpp
+1>Vect_M_SIMD.cpp
+1>Vect_Triangle_SIMD.cpp
+1>Vect_vM_SIMD.cpp
+1>main.cpp
+1>Matrix.cpp
+1>Vect4D.cpp
+1>Performance_LERPCpp.cpp
+1>Performance_LERPSIMD.cpp
+1>Performance_MatrixCpp.cpp
+1>Performance_MatrixSIMD.cpp
+1>Performance_MatrixVectCpp.cpp
+1>Performance_MatrixVectSIMD.cpp
+1>Performance_TriangleCpp.cpp
+1>Performance_TriangleSIMD.cpp
+1>Performance_VectMatrixCpp.cpp
+1>Performance_VectMatrixSIMD.cpp
+1>Unit_Verify_LERP_Math.cpp
+1>Unit_Verify_Matrix_Vect_Math.cpp
+1>Unit_Verify_Triangle_Math.cpp
+1>Unit_Verify_Vect_Matrix_Math.cpp
+1>Unit_Verify_Matrix_Matrix_Math.cpp
+1>PerformanceTest.cpp
+1>PA6DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA6\Debug\SIMDDebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:50 PM and took 04.215 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Lerp_Tests_Test 
+ PASSED: Matrix_Vect_Test 
+ PASSED: Triangle_Test 
+ PASSED: Vect_Matrix_Test 
+ PASSED: Matrix_Matrix_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 118
+         Mode: x86 Debug 
+
+-----------------
+
+Performance tests: 
+    Begin()
+
+---------- Matrix ----------------
+           : Matrix
+           : Matrix_SIMD
+         Matrix Orig: 1.31421 s    :-6515.140625 -9062.146484 7572.377930 -0.040000
+                                   :10878.101562 15130.732422 -12643.317383 0.070000
+                                   :6515.140625 9062.146484 -7572.377930 0.040000
+                                   :-1538.611328 -2140.107910 1788.285156 -0.010000
+                SIMD: 1.05797 s    :-6515.140625 -9062.146484 7572.377930 -0.040000
+                                   :10878.101562 15130.732422 -12643.317383 0.070000
+                                   :6515.140625 9062.146484 -7572.377930 0.040000
+                                   :-1538.611328 -2140.107910 1788.285156 -0.010000
+         Matrix SIMD: 1.057970 s ---> Unit Test Passed
+               Ratio: 1.242195
+
+---------- Vect * Matrix ----------------
+           : Vect * Matrix
+           : Vect * Matrix (SIMD)
+  Vect * Matrix Orig: 1.662200 s   :6843.329102 9518.589844 -7954.268555 0.040000
+                SIMD: 1.849670 s   :6843.329102 9518.589844 -7954.268555 0.040000
+             vM SIMD: 1.849670 s ---> Unit Test Passed
+               Ratio: 0.898647
+
+---------- Matrix * Vect ----------------
+           : Matrix * Vect
+           : Matrix * Vect (SIMD)
+  Matrix * Vect Orig: 1.723423 s   :6515.140625 9062.146484 -7572.377930 0.040000
+                SIMD: 1.617988 s   :6515.140625 9062.146484 -7572.377930 0.040000
+             Mv SIMD: 1.617988 s ---> Unit Test Passed
+               Ratio: 1.065165
+
+---------- LERP ----------------
+           : LERP
+           : LERP SIMD
+           LERP Orig: 3.135463 s   :16.183453 75.259201 34.153076 39.996334
+                SIMD: 1.096931 s   :16.183453 75.259201 34.153076 39.996334
+           LERP SIMD: 1.096931 s ---> Unit Test Passed
+               Ratio: 2.858395
+
+---------- TRIANGLE ----------------
+           : TRIANGLE
+           : TRIANGLE SIMD
+       Triangle Orig: 0.674320 s   :901.029156 
+                SIMD: 0.652303 s   :901.029156 
+       Triangle SIMD: 0.652303 s ---> Unit Test Passed
+               Ratio: 1.033752
+
+Performance tests: done() 
+
+
+    done() 
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
+Build started...
+1>------ Build started: Project: SIMD, Configuration: Release Win32 ------
+1>Matrix_Mv_SIMD.cpp
+1>Matrix_M_SIMD.cpp
+1>Matrix_vM_SIMD.cpp
+1>Vect_LERP_SIMD.cpp
+1>Vect_Mv_SIMD.cpp
+1>Vect_M_SIMD.cpp
+1>Vect_Triangle_SIMD.cpp
+1>Vect_vM_SIMD.cpp
+1>main.cpp
+1>Matrix.cpp
+1>Vect4D.cpp
+1>Performance_LERPCpp.cpp
+1>Performance_LERPSIMD.cpp
+1>Performance_MatrixCpp.cpp
+1>Performance_MatrixSIMD.cpp
+1>Performance_MatrixVectCpp.cpp
+1>Performance_MatrixVectSIMD.cpp
+1>Performance_TriangleCpp.cpp
+1>Performance_TriangleSIMD.cpp
+1>Performance_VectMatrixCpp.cpp
+1>Performance_VectMatrixSIMD.cpp
+1>Unit_Verify_LERP_Math.cpp
+1>Unit_Verify_Matrix_Vect_Math.cpp
+1>Unit_Verify_Triangle_Math.cpp
+1>Unit_Verify_Vect_Matrix_Math.cpp
+1>Unit_Verify_Matrix_Matrix_Math.cpp
+1>PerformanceTest.cpp
+1>PA6ReleaseX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\PA6\Release\SIMDReleaseX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:51 PM and took 04.143 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: --> DISABLED <--   **
+**           Mode: x86 Release        **
+****************************************
+
+------------------- Testing RELEASE ----------------------
+
+ PASSED: Lerp_Tests_Test 
+ PASSED: Matrix_Vect_Test 
+ PASSED: Triangle_Test 
+ PASSED: Vect_Matrix_Test 
+ PASSED: Matrix_Matrix_Test 
+
+  --- Tests Results ---    
+
+[x86 Release] Ignored: 0
+[x86 Release]  Passed: 5
+[x86 Release]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 118
+         Mode: x86 Release 
+
+-----------------
+
+Performance tests: 
+    Begin()
+
+---------- Matrix ----------------
+           : Matrix
+           : Matrix_SIMD
+         Matrix Orig: 3.06084 s    :-6515.140625 -9062.146484 7572.377930 -0.040000
+                                   :11619.179688 16160.361328 -13504.964844 0.070000
+                                   :6515.140625 9062.146484 -7572.377930 0.040000
+                                   :-1628.785156 -2265.536621 1893.094482 -0.010000
+                SIMD: 1.29460 s    :-6515.140625 -9062.146484 7572.377930 -0.040000
+                                   :10878.101562 15130.732422 -12643.317383 0.070000
+                                   :6515.140625 9062.146484 -7572.377930 0.040000
+                                   :-1538.611328 -2140.107910 1788.285156 -0.010000
+         Matrix SIMD: 1.294604 s ---> Unit Test Passed
+               Ratio: 2.364305
+
+---------- Vect * Matrix ----------------
+           : Vect * Matrix
+           : Vect * Matrix (SIMD)
+  Vect * Matrix Orig: 2.939361 s   :6515.140625 9062.146484 -7572.377930 0.040000
+                SIMD: 1.802118 s   :6843.492188 9519.001953 -7953.636719 0.040000
+             vM SIMD: 1.802118 s ---> Unit Test Passed
+               Ratio: 1.631059
+
+---------- Matrix * Vect ----------------
+           : Matrix * Vect
+           : Matrix * Vect (SIMD)
+  Matrix * Vect Orig: 2.921304 s   :6515.140625 9062.146484 -7572.377930 0.040000
+                SIMD: 1.813345 s   :6515.140625 9062.146484 -7572.377930 0.040000
+             Mv SIMD: 1.813345 s ---> Unit Test Passed
+               Ratio: 1.611003
+
+---------- LERP ----------------
+           : LERP
+           : LERP SIMD
+           LERP Orig: 4.505562 s   :16.183453 75.259201 34.153076 39.996334
+                SIMD: 1.061537 s   :16.183453 75.259201 34.153076 39.996334
+           LERP SIMD: 1.061537 s ---> Unit Test Passed
+               Ratio: 4.244377
+
+---------- TRIANGLE ----------------
+           : TRIANGLE
+           : TRIANGLE SIMD
+       Triangle Orig: 1.053758 s   :-18075051592.830990 
+                SIMD: 0.462187 s   :-18075051592.830990 
+       Triangle SIMD: 0.462187 s ---> Unit Test Passed
+               Ratio: 2.279937
+
+Performance tests: done() 
+
+
+    done() 
+

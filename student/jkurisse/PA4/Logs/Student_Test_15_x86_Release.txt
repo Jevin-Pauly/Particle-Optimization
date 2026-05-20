@@ -1,0 +1,98 @@
+-------------------------------------------------
+
+Log File 
+
+Name: Student_ Test_15
+Mode: x86_Release
+
+-------------------------------------------------
+
+Test15: 
+
+     Mem mem(Mem::Guard::Type_A);                     
+     mem.initialize();            
+     mem.Print(1);                        
+     void *a = mem.malloc( 0x100 );     
+     void *b = mem.malloc( 0x200 );     
+     void *c = mem.malloc( 0x10 );     
+     void *d = mem.malloc( 0x200 );     
+     mem.Print(2);                        
+     mem.free( d );                     
+     mem.free( b );                     
+     mem.Print(3);                        
+     void *r = mem.malloc( 0x200 );     
+     mem.Print(4);                        
+
+------- Print 1 -------------
+
+heapStart: 0x014A33F0     
+  heapEnd: 0x014AFBF0   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x014A3410     
+ pNextFit: 0x014A3410   
+
+Heap Hdr   s: 014A33F0  e: 014A3410                            size: 0x20 
+FREE HDR   s: 014A3410  e: 014A341C  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 014A341C  e: 014AFBF0                            size: 0xc7d4 
+
+------- Print 2 -------------
+
+heapStart: 0x014A33F0     
+  heapEnd: 0x014AFBF0   
+
+pUsedHead: 0x014A3744     
+pFreeHead: 0x014A3950     
+ pNextFit: 0x014A3950   
+
+Heap Hdr   s: 014A33F0  e: 014A3410                            size: 0x20 
+USED HDR   s: 014A3410  e: 014A341C  p: 014A351C  n: 00000000  size: 0xc    AF: 0 
+USED       s: 014A341C  e: 014A351C                            size: 0x100 
+USED HDR   s: 014A351C  e: 014A3528  p: 014A3728  n: 014A3410  size: 0xc    AF: 0 
+USED       s: 014A3528  e: 014A3728                            size: 0x200 
+USED HDR   s: 014A3728  e: 014A3734  p: 014A3744  n: 014A351C  size: 0xc    AF: 0 
+USED       s: 014A3734  e: 014A3744                            size: 0x10 
+USED HDR   s: 014A3744  e: 014A3750  p: 00000000  n: 014A3728  size: 0xc    AF: 0 
+USED       s: 014A3750  e: 014A3950                            size: 0x200 
+FREE HDR   s: 014A3950  e: 014A395C  p: 00000000  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 014A395C  e: 014AFBF0                            size: 0xc294 
+
+------- Print 3 -------------
+
+heapStart: 0x014A33F0     
+  heapEnd: 0x014AFBF0   
+
+pUsedHead: 0x014A3728     
+pFreeHead: 0x014A351C     
+ pNextFit: 0x014A3744   
+
+Heap Hdr   s: 014A33F0  e: 014A3410                            size: 0x20 
+USED HDR   s: 014A3410  e: 014A341C  p: 014A3728  n: 00000000  size: 0xc    AF: 0 
+USED       s: 014A341C  e: 014A351C                            size: 0x100 
+FREE HDR   s: 014A351C  e: 014A3528  p: 00000000  n: 014A3744  size: 0xc    AF: 0 
+FREE       s: 014A3528  e: 014A3728                            size: 0x200 
+USED HDR   s: 014A3728  e: 014A3734  p: 00000000  n: 014A3410  size: 0xc    AF: 1 
+USED       s: 014A3734  e: 014A3744                            size: 0x10 
+FREE HDR   s: 014A3744  e: 014A3750  p: 014A351C  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 014A3750  e: 014AFBF0                            size: 0xc4a0 
+
+------- Print 4 -------------
+
+heapStart: 0x014A33F0     
+  heapEnd: 0x014AFBF0   
+
+pUsedHead: 0x014A3744     
+pFreeHead: 0x014A351C     
+ pNextFit: 0x014A3950   
+
+Heap Hdr   s: 014A33F0  e: 014A3410                            size: 0x20 
+USED HDR   s: 014A3410  e: 014A341C  p: 014A3728  n: 00000000  size: 0xc    AF: 0 
+USED       s: 014A341C  e: 014A351C                            size: 0x100 
+FREE HDR   s: 014A351C  e: 014A3528  p: 00000000  n: 014A3950  size: 0xc    AF: 0 
+FREE       s: 014A3528  e: 014A3728                            size: 0x200 
+USED HDR   s: 014A3728  e: 014A3734  p: 014A3744  n: 014A3410  size: 0xc    AF: 1 
+USED       s: 014A3734  e: 014A3744                            size: 0x10 
+USED HDR   s: 014A3744  e: 014A3750  p: 00000000  n: 014A3728  size: 0xc    AF: 0 
+USED       s: 014A3750  e: 014A3950                            size: 0x200 
+FREE HDR   s: 014A3950  e: 014A395C  p: 014A351C  n: 00000000  size: 0xc    AF: 0 
+FREE       s: 014A395C  e: 014AFBF0                            size: 0xc294 

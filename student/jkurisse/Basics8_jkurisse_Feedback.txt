@@ -1,0 +1,98 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+studentId: jkurisse
+     name: Jevin Pauly Kurissery
+
+---------------------------------- 
+   PDF submission file              
+---------------------------------- 
+
+      name(pdf): Jevin Pauly
+      date(pdf): 11/1/2023
+changelist(pdf): 198115
+ Integrity(pdf): yes
+    Verify(pdf): yes
+
+---------------------------------  
+    SCORE                           
+---------------------------------  
+                                   
+ 
+[x86 Debug] BUILD: success  
+[x86 Debug]   RUN: success 
+ 
+       MEMORY: success  
+ 
+       MEMORY: success  
+ 
+[x86 Debug]  Passed: 7
+[x86 Debug]  Failed: 0
+   
+   --- For grading --- 
+
+         Unit Pass: 7
+       Unit Failed: 0
+
+               Raw: 7
+        Deductions: 0.0
+       Final Score: 7.0
+
+Build started...
+1>------ Build started: Project: Basics8DebugX86, Configuration: Debug Win32 ------
+1>A.cpp
+1>B.cpp
+1>C.cpp
+1>main.cpp
+1>A_Test.cpp
+1>B_Test.cpp
+1>C_Test.cpp
+1>D_Test.cpp
+1>E_Test.cpp
+1>F_Test.cpp
+1>G_Test.cpp
+1>Basics8DebugX86.vcxproj -> C:\code\keenan2023fall_csc461\student\jkurisse\Basics8\Debug\Basics8DebugX86.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 6:31 PM and took 02.565 seconds ==========
+
+
+****************************************
+**      Framework: 3.82               **
+**   C++ Compiler: 193732822          **
+**  Tools Version: 14.37.32822        **
+**    Windows SDK: 10.0.22621.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+ PASSED: Test_A_Test 
+ PASSED: Test_B_Test 
+ PASSED: Test_C_Test 
+ PASSED: Test_D_Test 
+ PASSED: Test_E_Test 
+ PASSED: Test_F_Test 
+ PASSED: Test_G_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 7
+[x86 Debug]  Failed: 0
+
+   Test Count: 7
+ Indiv Checks: 78
+         Mode: x86 Debug 
+
+-----------------
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------
+
